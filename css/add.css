@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", monospace;
+}
+body{
+    background-color: cadetblue;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+.centralBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    height: 70%;
+    background-color: azure ;
+    margin: auto;   
+    overflow: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

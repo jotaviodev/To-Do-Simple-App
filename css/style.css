@@ -40,14 +40,19 @@ body{
 .checkBoxItem i,input{
     cursor: pointer;
 }
-
-
+.content h4{
+   
+}
 .add{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin: auto;
 }
 .add i{
     cursor: pointer;
